@@ -1,0 +1,21 @@
+{
+    "name": "aoc-2022",
+    "version": "1.0.0",
+    "description": "",
+    "type": "module",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "today": "tsx watch days/1/script.ts"
+    },
+    "keywords": [],
+    "author": "joaomendoncaa",
+    "license": "ISC",
+    "dependencies": {
+        "@types/node": "^18.11.10",
+        "ts-node": "^10.9.1",
+        "tsx": "^3.12.1"
+    },
+    "devDependencies": {
+        "typescript": "^4.9.3"
+    }
+}

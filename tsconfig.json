@@ -1,0 +1,15 @@
+{
+    "transpileOnly": true,
+    "compilerOptions": {
+      "esModuleInterop": true,
+      "preserveConstEnums": true,
+      "allowSyntheticDefaultImports": true,
+      "lib": ["ES2021", "ES2022", "ES2021.String", "DOM"],
+      "module": "ESNext",
+      "moduleResolution": "node",
+      "types": ["node"],
+      "target": "ES2022"
+    },
+    "include": ["days/**/*"],
+    "exclude": ["node_modules"]
+  }
